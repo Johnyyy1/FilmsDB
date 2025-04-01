@@ -1,0 +1,39 @@
+.custom-navbar {
+    padding: 10px 20px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.search-form {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .search-form {
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}

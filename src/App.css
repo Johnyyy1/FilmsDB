@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  margin: 50px;
+}
+
+.app-container {
+  width: 100%;
+}
+
+.content-container {
+  padding: 20px;
+  margin-top: 60px; 
+}
