@@ -6,6 +6,10 @@
     margin-top: 20px;
 }
 
+#year{
+    color: black;
+}
+
 .movie-card {
     flex-basis: calc(16% - 20px); /* Zaručí 6 karet na řadě (počítáno s mezerou) */
     text-align: center;
